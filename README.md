@@ -23,23 +23,6 @@ Mac:  `conda install -c https://conda.anaconda.org/quasiben pygame`
 Windows: `conda install -c https://conda.anaconda.org/prkrekel pygame`  
 Linux:  `conda install -c https://conda.anaconda.org/tlatorre pygame`  
 
-## Fixing Common PyGame Problems
-
-The PyGame library can in some cases require a bit of troubleshooting to work correctly for this project. While the PyGame aspect of the project is not required for a successful submission  (you can complete the project without a visual simulation, although it is more difficult), it is very helpful to have it working! If you encounter an issue with PyGame, first see these helpful links below that are developed by communities of users working with the library:
-- [Getting Started](https://www.pygame.org/wiki/GettingStarted)
-- [PyGame Information](http://www.pygame.org/wiki/info)
-- [Google Group](https://groups.google.com/forum/#!forum/pygame-mirror-on-google-groups)
-- [PyGame subreddit](https://www.reddit.com/r/pygame/)
-
-### Problems most often reported by students
-_"PyGame won't install on my machine; there was an issue with the installation."_  
-**Solution:** As has been recommended for previous projects, Udacity suggests that you are using the Anaconda distribution of Python, which can then allow you to install PyGame through the `conda`-specific command.
-
-_"I'm seeing a black screen when running the code; output says that it can't load car images."_  
-**Solution:** The code will not operate correctly unless it is run from the top-level directory for `smartcab`. The top-level directory is the one that contains the **README** and the project notebook.
-
-If you continue to have problems with the project code in regards to PyGame, you can also [use the discussion forums](https://discussions.udacity.com/c/nd009-reinforcement-learning) to find posts from students that encountered issues that you may be experiencing. Additionally, you can seek help from a swath of students in the [MLND Student Slack Community](http://mlnd.slack.com).
-
 ## Starting the Project
 
 For this assignment, you can find the `smartcab` folder containing the necessary project files on the [Machine Learning projects GitHub](https://github.com/udacity/machine-learning), under the `projects` folder. You may download all of the files for projects we'll use in this Nanodegree program directly from this repo. Please make sure that you use the most recent version of project files when completing a project!
