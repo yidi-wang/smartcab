@@ -1,4 +1,4 @@
-# Content: Reinforcement Learning
+# Reinforcement Learning
 ## Project: Train a Smartcab How to Drive
 
 ## Project Overview
