@@ -1,12 +1,8 @@
 # Reinforcement Learning
 ## Project: Train a Smartcab How to Drive
 
-## Project Overview
-
-In this project you will apply reinforcement learning techniques for a self-driving agent in a simplified world to aid it in effectively reaching its destinations in the allotted time. You will first investigate the environment the agent operates in by constructing a very basic driving implementation. Once your agent is successful at operating within the environment, you will then identify each possible state the agent can be in when considering such things as traffic lights and oncoming traffic at each intersection. With states identified, you will then implement a Q-Learning algorithm for the self-driving agent to guide the agent towards its destination within the allotted time. Finally, you will improve upon the Q-Learning algorithm to find the best configuration of learning and exploration factors to ensure the self-driving agent is reaching its destinations with consistently positive results.
-
 ## Description
-In the not-so-distant future, taxicab companies across the United States no longer employ human drivers to operate their fleet of vehicles. Instead, the taxicabs are operated by self-driving agents, known as *smartcabs*, to transport people from one location to another within the cities those companies operate. In major metropolitan areas, such as Chicago, New York City, and San Francisco, an increasing number of people have come to depend on *smartcabs* to get to where they need to go as safely and reliably as possible. Although *smartcabs* have become the transport of choice, concerns have arose that a self-driving agent might not be as safe or reliable as human drivers, particularly when considering city traffic lights and other vehicles. To alleviate these concerns, your task as an employee for a national taxicab company is to use reinforcement learning techniques to construct a demonstration of a *smartcab* operating in real-time to prove that both safety and reliability can be achieved.
+In the not-so-distant future, taxicab companies across the United States no longer employ human drivers to operate their fleet of vehicles. Instead, the taxicabs are operated by self-driving agents, known as *smartcabs*, to transport people from one location to another within the cities those companies operate. In major metropolitan areas, such as Chicago, New York City, and San Francisco, an increasing number of people have come to depend on *smartcabs* to get to where they need to go as safely and reliably as possible. Although *smartcabs* have become the transport of choice, concerns have arose that a self-driving agent might not be as safe or reliable as human drivers, particularly when considering city traffic lights and other vehicles. To alleviate these concerns, this project uses reinforcement learning techniques to construct a demonstration of a *smartcab* operating in real-time to prove that both safety and reliability can be achieved.
 
 ## Software Requirements
 This project uses the following software and Python libraries:
@@ -33,14 +29,8 @@ This project contains three directories:
 - `/images/`: This folder contains various images of cars to be used in the graphical user interface. You will not need to modify or create any files in this directory.
 - `/smartcab/`: This folder contains the Python scripts that create the environment, graphical user interface, the simulation, and the agents. You will not need to modify or create any files in this directory except for `agent.py`.
 
-It also contains two files:
-- `smartcab.ipynb`: This is the main file where you will answer questions and provide an analysis for your work.
--`visuals.py`: This Python script provides supplementary visualizations for the analysis. Do not modify.
-
-Finally, in `/smartcab/` are the following four files:
-- **Modify:**
+In `/smartcab/` are the following four files:
   - `agent.py`: This is the main Python file where you will be performing your work on the project.
-- **Do not modify:**
   - `environment.py`: This Python file will create the *smartcab* environment.
   - `planner.py`: This Python file creates a high-level planner for the agent to follow towards a set goal.
   - `simulation.py`: This Python file creates the simulation and graphical user interface. 
@@ -51,7 +41,7 @@ In a terminal or command window, navigate to the top-level project directory `sm
 `python smartcab/agent.py` or  
 `python -m smartcab.agent`
 
-This will run the `agent.py` file and execute your implemented agent code into the environment. Additionally, use the command `jupyter notebook smartcab.ipynb` from this same directory to open up a browser window or tab to work with your analysis notebook. Alternatively, you can use the command `jupyter notebook` or `ipython notebook` and navigate to the notebook file in the browser window that opens. Follow the instructions in the notebook and answer each question presented to successfully complete the implementation necessary for your `agent.py` agent file. A **README** file has also been provided with the project files which may contain additional necessary information or instruction for the project.
+This will run the `agent.py` file and execute your implemented agent code into the environment. 
 
 ## Definitions
 
